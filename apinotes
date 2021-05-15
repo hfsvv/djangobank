@@ -1,0 +1,23 @@
+#api/v1/bank/register
+    push=>regiter user
+
+#api/v1/bank/login
+    push=>login user
+
+#api/v1/bank/acc
+    push=>create account for user
+
+#api/v1/bank/trns/acc_no
+    push=>transfer money to other account
+
+#api/v1/bank/bal/acc_no
+    get=>view balance
+
+#api/v1/bank/this/acc_no
+    get=>view transaction history
+
+#api/v1/bank/this/dbt/acc_no
+    get=>view debit transactions only
+
+#api/v1/bank/this/cdt/acc_no
+    get=>view credit transactions only
